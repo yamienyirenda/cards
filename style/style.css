@@ -1,0 +1,114 @@
+/* Properties */
+.d-flex {
+    display: flex;
+}
+
+.grid {
+    display: grid
+}
+
+.jc-center {
+
+    justify-content: center;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.algn-cntr {
+    align-items: center;
+}
+
+.space-btwn {
+    justify-content: space-evenly;
+}
+
+.font {
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #070F2B;
+}
+
+main {
+   
+    width: 100%;
+    height: 80vh;
+}
+
+.cont {
+    
+    width: 80%;
+    height: 60vh;
+
+}
+
+.cards {
+background: #1B1A55;
+    width: 28%;
+    height: 52vh;
+    border-radius: 12px;
+    transition:.5s ;
+}
+.cards:hover{
+    box-shadow: rgba(83, 83, 180, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.header {
+
+    height: 8vh;
+    width: 100%;
+    color: #9290C3;
+
+}
+
+.image {
+
+    height: 20vh;
+    width: 100%;
+    overflow: none;
+}
+
+#img1 {
+    width: 50%;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: url(../images/team.jpg);
+    background-position: cover;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#img2 {
+    width: 50%;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: url(../images/yamzy.jpg);
+    background-position: cover;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#img3 {
+    width: 50%;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: url(../images/vibz.jpg);
+    background-position: cover;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.disc {
+
+    height: 20vh;
+    width: 100%;
+    color: #535C91;
+    cursor: default;
+
+}
